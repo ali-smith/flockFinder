@@ -1,0 +1,436 @@
+
+.hidden {
+	display: none;
+}
+
+.flamingosBackground {
+    background: url("../images/dreamstime_m_48003529.jpg") no-repeat center center fixed;
+    background-size: cover;
+ 
+
+}
+
+.searchWrapper {
+	/*border: 1px solid red;*/
+	font-family: 'Overlock', cursive;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	height: 150px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 20;
+}
+
+.backgroundWhite {
+	background-color: white;
+	/*box-shadow: -3px 2px 23px 0px #c0c0c0;*/
+}
+
+#blue {
+	/*border: 2px solid blue;*/
+	width: 100%;
+	height: 750px;
+	background: white url("../images/clouds.png") no-repeat bottom fixed;
+
+	margin-top: 200px;
+  	position: absolute;
+	display: none;
+}
+
+#flyingFlamingoDiv {
+	width: 100%;
+	min-height: 100px;
+}
+
+.searchParagraph {
+	position: relative;
+	height: 50px;
+	width: 300px;
+	left: 50%;
+	margin: 0 0 0 -150px;
+	text-align: center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 32px;
+
+}
+
+#flyingFlamingoID {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.flamingoStart {
+	left: -40%;
+	-webkit-transition:left 5s linear;
+	-o-transition: left 5s linear;
+	-moz-transition: left 5s linear;
+	transition: left 5s linear;
+}
+
+.flamingoFly {
+	left: 130%;
+}
+
+/*.lockScroll {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}*/
+
+/*.autoScrollStart {
+	position: relative;
+	top: 0px;
+	transition:top 1.5s ease;
+}
+
+.autoScrollTop {
+	position: relative;
+	top: -800px;
+}*/
+
+
+
+/*.searchWrapperTop {
+	top: 0%;
+	
+	box-shadow: 0px 9px 9px -9px #a7a7a7;
+}*/
+
+#searchErrorWrapper {
+/*	border: 1px solid green;*/
+	background-color: white;
+	padding-top: 150px;
+	height: 750px;
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+
+#searchErrorDiv {
+	text-align: center;
+	padding: 15px 0 0 0;
+	width: 500px;
+	height: 500px;
+	color: black;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	margin: 60px auto 0 auto;
+	/*box-shadow horiz vert blur spread color*/
+	/*box-shadow: 0px 9px 9px -9px #444444;*/
+	/*box-shadow: 0px 0px 35px -5px #c0c0c0;*/
+	box-shadow: -3px 2px 23px 0px #c0c0c0;
+}
+
+#searchErrorDiv > #searchErrorP {
+	font-family: 'Open Sans', sans-serif;
+	color: #444444;
+	font-size: 22px; 
+	padding-top: 25px;
+	text-align: center;
+
+}
+
+#sadFlamingo {
+	margin-top: 45px;
+	margin-left: 35px;
+}
+
+.searchWrapper h2 {
+	font-size: 40px;
+	color: #16b2ed;
+	word-spacing: -5px;
+	text-shadow: 2px 2px 5px #a7a7a7;
+	cursor: pointer;
+}
+
+.searchWrapper p {
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	padding-left: 70px;
+}
+
+#fslogo {
+	width: 200px;
+	height: 53px;
+	margin: 0 -8px -17px 0;
+}
+
+#locationInputBox {
+	font-size: 16px;
+	padding: 0 0 1px 0;
+	height: 40px;
+	width: 180px;
+	border: 2px solid #0b0304;
+	/*box-shadow: 0px 1px 5px 2px #a7a7a7;*/
+	border-radius: 5px;
+	outline: none;
+	margin-top: 15px;
+}
+
+#locationInputBox[placeholder] {
+	font-size: 20px;
+	text-align: center;
+}
+
+.venueSummaryTemplateHidden {
+	font-family: 'Open Sans', sans-serif;
+	display: none;
+}
+
+.venuesWrapper {
+	width: 100%;
+	margin-top: 200px;
+  	position: absolute;
+  	z-index: -20;
+	display: none;
+}
+
+.venueSummary {
+	/*border: 1px solid blue;*/
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f1f1f1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	min-height: 320px;
+	width: 550px;
+/*	box-shadow: 0px 9px 9px -9px #523b31;*/
+	box-shadow: -3px 2px 23px 0px #c0c0c0;
+	margin: 5px auto 0 auto;	 
+}
+
+.venueSummaryHead {
+	/*border: 1px solid black;*/ 
+	margin-top: 10px;
+
+}
+
+.rankIcon {
+  	padding-top: 8px 2px 0 0;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+ 	border-radius: 5px;
+ 	margin-left: 10px;
+  /*	border: 1px solid black;*/
+}
+
+div.rankIcon .rankIconP {
+	color: #e54b6e;
+	font-size: 32px;
+	font-weight: 600;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	margin-left: 0px;
+	text-align: center;
+	
+}
+
+
+.venueSummaryBody {
+	/*border: 1px solid orange;*/
+	width: 450px;
+  	position: relative;
+  	margin-left: 90px;
+  	margin-top: -51px;
+}
+
+
+.venueSummaryBody p {
+	color: #444444;
+	margin-left: 60px;
+}
+
+span.fadeVenueName > a > p:hover {
+	color: #e50336;
+}
+
+#externalLink {
+	font-size: 18px;
+	margin-left: 10px;
+ 
+}
+
+
+.fadeVenueDescription {
+	display: none;
+}
+
+.fadeVenueDescription p.descriptionP {
+	color: #444444;
+}
+
+.venueIconImg {
+	width: 50px;
+	height: 50px;
+	float: left;
+	cursor: pointer;
+}
+
+.fa-check, .fa-map-marker {
+	color: white;
+	background-color: #c4c3bc;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+	border: 1px solid #c4c3bc;
+	vertical-align: top;
+	float: left;
+}
+
+.tipIcon {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: white;
+	font-style: normal;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #c4c3bc;
+	background-color: #c4c3bc;
+	display: inline-block;
+	cursor: default;
+	float: left;
+}
+
+.venueURL, .venueCheckins {
+	/*border: 1px solid purple;*/
+	background-color: white;
+	padding: 5px;
+	height: 60px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.venueTip, .venueAddress {
+	/*border: 1px solid purple;*/
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	min-height: 60px;
+	margin-bottom: 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+.venueTip p:hover, .venueAddress:hover {
+	font-weight: 600;
+}
+
+.venueURL p {
+	color: #e54b6e;
+	font-weight: 600;
+	font-size: 24px;
+	height: 60px;
+}
+
+.venueCheckins p {
+	font-size: 20px;
+	font-weight: 600;
+	cursor: default;
+} 
+
+.venueTip p, .venueAddress p {
+	font-size: 18px;
+}
+
+.fadeDiv {
+	background: url('../images/fade.png') bottom no-repeat;
+	background-size: cover;
+	height: 30px;
+	width: 395px;
+  	position: absolute;
+  	bottom: 0;
+  	right: 0px;
+}
+
+.moreLessButton {
+	border: 1px solid gray;
+	background-color: white;
+	text-align: center;
+	height: 30px;
+	width: 60px;
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+
+.less {
+	height: 50px;
+	overflow: hidden;
+}
+
+
+
+.googleFrame {
+	width: 385px;
+	height: 250px;
+	border: 1px solid black;
+	margin: 0 0 10px 27px;
+}
+
+.googleFrame.showMap {
+	z-index: -100;
+	position: absolute;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+/*#newSearchDiv {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background-color: white;
+	color: #a7a7a7;
+	padding-top: 15px;
+	box-shadow: inset 1px -3px 9px #a7a7a7;
+	width: 115px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 25px auto 0 auto;
+	
+}*/
+
+/*#newSearchDiv:hover {
+	cursor: pointer;
+	color: #7a7a7a;
+	box-shadow: inset 1px -3px 9px #7a7a7a;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
