@@ -163,27 +163,25 @@ $(document).ready(function() {
 		$(this).siblings('.fadeVenueDescription').show();
 	});
 
+	//show foursquare category
 	$('.venuesWrapper').on('mouseout', '.venueIconImg', function() {
 		$(this).siblings('.fadeVenueName').show();
 		$(this).siblings('.fadeVenueDescription').hide();
 	});
 
+	//start over/reload page
 	$('.logoH2').on('click', function(){
 		location.reload();
 	});
 
-	$('#newSearchP').on('click', function(){
-		$('#searchErrorWrapper').fadeOut(500);
-		$('#locationInputBox').focus();
-		changeBirds();
-	});
-
+	//expand tip section
 	$('.venuesWrapper').on('click', '.venueTip', function() {
 		$(this).toggleClass('less');
 		$(this).children('.fadeDiv').toggleClass('hidden');
 	});
 
-	var externalLink = $(' ' + '<i id="externalLink" class="fa fa-external-link"></i>');
+	//show external link icon on hover
+	var externalLink = $('<i id="externalLink" class="fa fa-external-link"></i>');
 	$('.venuesWrapper').on('mouseover', '.venueURL p', function() {
 		$(this).append(externalLink);
 	});

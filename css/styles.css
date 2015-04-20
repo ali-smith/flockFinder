@@ -5,13 +5,9 @@
 
 .flamingosBackground {
     background: url("../images/dreamstime_m_48003529.jpg") no-repeat center center fixed;
-    background-size: cover;
- 
-
 }
 
 .searchWrapper {
-	/*border: 1px solid red;*/
 	font-family: 'Overlock', cursive;
 	font-weight: 700;
 	text-align: center;
@@ -25,15 +21,12 @@
 
 .backgroundWhite {
 	background-color: white;
-	/*box-shadow: -3px 2px 23px 0px #c0c0c0;*/
 }
 
 #blue {
-	/*border: 2px solid blue;*/
 	width: 100%;
 	height: 750px;
 	background: white url("../images/clouds.png") no-repeat bottom fixed;
-
 	margin-top: 200px;
   	position: absolute;
 	display: none;
@@ -55,7 +48,6 @@
 	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-size: 32px;
-
 }
 
 #flyingFlamingoID {
@@ -77,33 +69,7 @@
 	left: 130%;
 }
 
-/*.lockScroll {
-	height: 100%;
-	overflow: hidden;
-	position: relative;
-}*/
-
-/*.autoScrollStart {
-	position: relative;
-	top: 0px;
-	transition:top 1.5s ease;
-}
-
-.autoScrollTop {
-	position: relative;
-	top: -800px;
-}*/
-
-
-
-/*.searchWrapperTop {
-	top: 0%;
-	
-	box-shadow: 0px 9px 9px -9px #a7a7a7;
-}*/
-
 #searchErrorWrapper {
-/*	border: 1px solid green;*/
 	background-color: white;
 	padding-top: 150px;
 	height: 750px;
@@ -115,15 +81,13 @@
 #searchErrorDiv {
 	text-align: center;
 	padding: 15px 0 0 0;
-	width: 500px;
-	height: 500px;
+	width: 400px;
+	height: 400px;
 	color: black;
 	background-color: #f1f1f1;
 	border-radius: 5px;
 	margin: 60px auto 0 auto;
 	/*box-shadow horiz vert blur spread color*/
-	/*box-shadow: 0px 9px 9px -9px #444444;*/
-	/*box-shadow: 0px 0px 35px -5px #c0c0c0;*/
 	box-shadow: -3px 2px 23px 0px #c0c0c0;
 }
 
@@ -133,12 +97,12 @@
 	font-size: 22px; 
 	padding-top: 25px;
 	text-align: center;
-
 }
 
 #sadFlamingo {
-	margin-top: 45px;
-	margin-left: 35px;
+	height: 300px;
+	margin-top: 15px;
+  	margin-left: 15px;
 }
 
 .searchWrapper h2 {
@@ -194,7 +158,6 @@
 }
 
 .venueSummary {
-	/*border: 1px solid blue;*/
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f1f1f1;
 	padding-top: 5px;
@@ -208,7 +171,6 @@
 }
 
 .venueSummaryHead {
-	/*border: 1px solid black;*/ 
 	margin-top: 10px;
 
 }
@@ -220,7 +182,6 @@
 	height: 50px;
  	border-radius: 5px;
  	margin-left: 10px;
-  /*	border: 1px solid black;*/
 }
 
 div.rankIcon .rankIconP {
@@ -235,7 +196,6 @@ div.rankIcon .rankIconP {
 	
 }
 
-
 .venueSummaryBody {
 	/*border: 1px solid orange;*/
 	width: 450px;
@@ -243,7 +203,6 @@ div.rankIcon .rankIconP {
   	margin-left: 90px;
   	margin-top: -51px;
 }
-
 
 .venueSummaryBody p {
 	color: #444444;
@@ -259,7 +218,6 @@ span.fadeVenueName > a > p:hover {
 	margin-left: 10px;
  
 }
-
 
 .fadeVenueDescription {
 	display: none;
@@ -306,7 +264,6 @@ span.fadeVenueName > a > p:hover {
 }
 
 .venueURL, .venueCheckins {
-	/*border: 1px solid purple;*/
 	background-color: white;
 	padding: 5px;
 	height: 60px;
@@ -316,7 +273,6 @@ span.fadeVenueName > a > p:hover {
 }
 
 .venueTip, .venueAddress {
-	/*border: 1px solid purple;*/
 	background-color: white;
 	padding: 5px;
 	border-radius: 5px;
@@ -324,10 +280,6 @@ span.fadeVenueName > a > p:hover {
 	margin-bottom: 15px;
 	position: relative;
 	cursor: pointer;
-}
-
-.venueTip p:hover, .venueAddress:hover {
-	font-weight: 600;
 }
 
 .venueURL p {
@@ -373,8 +325,6 @@ span.fadeVenueName > a > p:hover {
 	overflow: hidden;
 }
 
-
-
 .googleFrame {
 	width: 385px;
 	height: 250px;
@@ -387,49 +337,6 @@ span.fadeVenueName > a > p:hover {
 	position: absolute;
 	visibility: hidden;
 }
-
-
-
-
-
-
-
-
-
-/*#newSearchDiv {
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	background-color: white;
-	color: #a7a7a7;
-	padding-top: 15px;
-	box-shadow: inset 1px -3px 9px #a7a7a7;
-	width: 115px;
-	height: 50px;
-	border-radius: 5px;
-	margin: 25px auto 0 auto;
-	
-}*/
-
-/*#newSearchDiv:hover {
-	cursor: pointer;
-	color: #7a7a7a;
-	box-shadow: inset 1px -3px 9px #7a7a7a;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
