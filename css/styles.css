@@ -276,7 +276,7 @@ span.fadeVenueName > a > p:hover {
 	background-color: white;
 	padding: 5px;
 	border-radius: 5px;
-	min-height: 60px;
+	min-height: 65px;
 	margin-bottom: 15px;
 	position: relative;
 	cursor: pointer;
@@ -302,7 +302,7 @@ span.fadeVenueName > a > p:hover {
 .fadeDiv {
 	background: url('../images/fade.png') bottom no-repeat;
 	background-size: cover;
-	height: 30px;
+	height: 8px;
 	width: 395px;
   	position: absolute;
   	bottom: 0;
